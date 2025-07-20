@@ -6,23 +6,13 @@ import './App.css'
 function App() {
   
     let [counter,setCounter] = useState(56)
-    // it is responisable to  change state  means propoget in ui(dom) in 
-    //setCounter is mathod(function) to responsible for handle to the update counter(variable) 
-    // let counter = 56
 
     const addValue = () => {
       counter = counter + 1
-      setCounter(counter)
-      // setCounter(counter + 1)
-      console.log("add value",counter);
-
-      
-      
     }
     
     const removeValue = () => {
       setCounter(counter - 1)
-      console.log("remove value",counter)
     }
 
   return (
